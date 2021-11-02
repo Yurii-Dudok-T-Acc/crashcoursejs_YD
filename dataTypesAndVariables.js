@@ -2,13 +2,13 @@
 // const secondName = "Dudok";
 // let age = 23;
 
-// console.log(firstName, secondName, age);
+// console.log(firstName, secondName, age); простий вивід даних
 
 
 // let Cars = ["BMW", "Audi", "Hundai", "Honda"];
 // console.log(typeof Cars);
 // Cars [2] = "Citroen";
-// console.log(Cars[2]);
+// console.log(Cars[2]); // створення масиву і відображення одного з його елементів
 
 // let productCategoryID = {
 // smartphones : 001,
@@ -17,18 +17,18 @@
 // pcAndLaptops: 004,
 // userCanBuyGoods: true,
 
-// };
+// }; //стоврення об'єкту
 
-// console.log(typeof productCategoryID.userCanBuyGoods, typeof productCategoryID['clothes']);
+// console.log(typeof productCategoryID.userCanBuyGoods, typeof productCategoryID['clothes']); виведенення типів даних 
 
 // let a;
 // a = 10;
 // const informMessage = "Goods on website remaining: ";
-// console.log(informMessage + a);
+// console.log(informMessage + a); //додавання рядка і числа в одне значення
 
 // let a = "6";
 // let b = 6;
-// console.log(a===b); 
+// console.log(a===b); // порівняння за значеннями і за типами
 
 // let a = 10;
 // let b = "10";
