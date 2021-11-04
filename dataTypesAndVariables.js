@@ -41,6 +41,8 @@
 // let a = 10;
 // console.log(typeof(a.toString())); // число на рядок, ти даних
 
+// оператори присвоєння 
+
 // const a = 10;
 // const b = 23;
 // const sum = a +b;
@@ -139,7 +141,7 @@ console.log(0 !=  corner);
 
 // використання switch
 
-const song = null;
+let song = "Uprising";
 
 switch(song) {
     case "Ангела": 
@@ -151,8 +153,8 @@ switch(song) {
     case "Comatose": 
         console.log("Yes, its Skillet!");
         break;
-    case null || " ":
-        console.log("Enter name of song");
+    case null:
+        console.log("Field cant be empty");
         break;
     default: 
         console.log("Your song is temporary out of our music base");
